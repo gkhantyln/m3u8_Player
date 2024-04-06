@@ -1,0 +1,82 @@
+.right {
+    text-align: right;
+}
+
+.bodydef {
+    font-family: verdana;
+	background:#2d2d2d;
+}
+
+div.content {
+    min-width: 200px;
+    /*width: 550px;*/
+    /*text-align: center;*/
+}
+
+h5.found {
+    text-align: left;
+    vertical-align: central;
+    margin: 3px 0 3px 7px;
+    color: #007bff;
+	margin-top: 12px;
+}
+    h5.found a.download_all {
+        color: #007bff;
+    }
+h5.not-found {
+    color: #007bff;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+	margin-top: 12px
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: dimgrey;    
+}
+    
+
+    a.auto_start_download > img,
+    a.auto_start_download_all > img {
+        border: 1px solid transparent;
+        border-radius: 2px;
+    }
+        a.auto_start_download > img:hover,
+        a.auto_start_download_all > img:hover {
+            border-color: silver;
+        }
+    a.auto_start_download_all {
+        margin-left: 5px;
+    }
+
+
+.link{
+	padding:10px;
+	background: #131212;
+	overflow:hidden;
+}
+a .link{
+	text-decoration:none;
+	margin-bottom:10px;
+}
+a:hover .link{
+	text-decoration:none!important;
+color:#007bff;
+     background: #212020;
+}
+.content span{
+	color:#d10000;
+	padding-right:10px;
+}
+.download_all b{
+
+	color:#ccc;
+}
+.books{
+
+	display:block;
+right:10px;
+	border-bottom:solid 1px #000;
+	padding:10px;
+}

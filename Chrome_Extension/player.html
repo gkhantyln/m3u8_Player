@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>M3U8 Player</title>
+  <script src="jquery.min.js"></script>
+  <script src="jquery-ui.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/materialdesignicons.min.css">
+</head>
+<body>
+ 
+  <video data-dashjs-player id="video" class="zoomed_mode" controls></video>
+  
+  
+  <center>
+  <!--<div id="url" style="margin:10px"></div>-->
+  <div class="urls">
+  <img src="img/icon32.png" alt="Logo">
+  <form action="" method="post" id="form-control">
+  
+  <input style="" value="" type="text" id="url0" placeholder="Örnek: www.site.com/channel.m3u8" aria-label="Örnek :www.domain.com/channel.m3u8" >
+  <input type="submit" style="width:60px" value="Oynat" class="gourl">
+  </form>
+  </div>
+  </center>
+  
+ <a id="show" href="#" style="top:10px;right:10px;overflow: hidden;z-index: 100;display: block;position: fixed;padding:5px" data-toggle="tooltip0" data-placement="left" title="Favourite channels"><span class="mdi mdi-book mdi-24px"></span></a> 
+ 
+ 
+  <div id="fav">
+<div id="container">
+<div  style="text-align:right;display:none"><button id="close" style="">M3U8 Adreslerim <span class="mdi mdi-book mdi-18px"></span></button></div>
+  
+  <div id="content">
+  
+  <div id="add-link-form" class="primary_container">
+    <!--<label>Title</label><br />--><input id="title" placeholder="Name it..." /><!--<label>URL</label>--><input id="url" style="display:none"/><button id="add">Kaydet </button> <button id="cancel">İptal </button>
+    </div>
+    <div id="new-link-button">
+      <button>M3U8 Adresini Ekle</button>
+    </div>
+    <ul id="favorite-links">
+      <li id="boormark_1">
+        <a href="player.html#https://cinque.42c65aec57cd39f.shop/q/www.selcuksportshd1178.xyz/601/f.acdwatercn.shop/chunklist_hd.m3u8">BeinSports 1</a><button class="removebtn">x</button>
+      </li>
+      <li id="boormark_2">
+        <a href="player.html#https://sette.42c65aec57cd39f.shop/selcuksports/www.selcuksportshd1178.xyz/601/playlist.m3u8">BeinSports 2</a><button class="removebtn">x</button>
+      </li>
+	  <li id="boormark_3">
+        <a href="player.html#https://sette.42c65aec57cd39f.shop/q/www.selcuksportshd1178.xyz/601/e.acdwatercn.shop/chunklist_hd.m3u8">BeinSports 3</a><button class="removebtn">x</button>
+      </li>
+	  <li id="boormark_4">
+        <a href="player.html#https://tre.42c65aec57cd39f.shop/selcuksports/www.selcuksportshd1178.xyz/601/playlist.m3u8">BeinSports 4</a><button class="removebtn">x</button>
+      </li>
+    </ul>
+	
+  </div>
+  
+</div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  <script src="global.js"></script>
+  <script src="player.js"></script>
+  <script src="bookmark.js"></script>
+  <!--<script src="ga.js"></script>-->
+
+  
+
+</body>
+</html>

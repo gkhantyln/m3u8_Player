@@ -1,0 +1,35 @@
+{
+   "name": "M3U8 Player",
+   "background": {
+      "scripts": [ "background.js", "event.js", "global.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon128.png",
+      "default_popup": "m3u8.html"
+   },
+   "content_scripts": [ {
+      "css": [ "css/materialdesignicons.min.css" ],
+      "js": [ "script_in_content.js", "m3u8.js", "background.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+   "description": "M3U8™ Player .m3u8 uzantılı adreslerdeki medyaları izlemenize olanak sağlar.",
+   "icons": {
+      "128": "img/icon128.png",
+      "32": "img/icon32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZldLPz9NMzraCW3UjVQxYAQatw6udrRxG1kCqa2G09/gZWJYZaRbCaTaIq/p3N/wdPRCLyV2hs3glwOeKYr3feRNtbEM/ty9X8bH/Jks0QYR0KRn5+Yowp/tivGzWs4fuYhodOcVN65uDmN2r2yMCThCeTwf37Wp94FeMhRZG0iASyyurtSQyPPDmsp5oD9dbtfZJbw+SzkJNufb4eT3JUIpy4dUw+/NUQ0oM572LjEV7aDzyJXzJHghoo37e3i4MLOtb64KR/rboGq1FS8aAD6LG+k2IsREFKA6HXnIJxevxl80taajQiadMVnHNiLtLTJ4817rgFxtB4e6rOmoQIDAQAB",
+   "manifest_version": 2,
+   "offline_enabled": true,
+   "omnibox": {
+      "keyword": "m3u8"
+   },
+   "options_ui": {
+      "chrome_style": true,
+      "page": "m3u8_options.html"
+   },
+   "permissions": [ "activeTab", "<all_urls>", "webRequest", "webRequestBlocking", "storage" ],
+   "version": "1.0",
+   "web_accessible_resources": [ "*.js", "*.html" ]
+}
