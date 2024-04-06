@@ -24,4 +24,4 @@ Projeyi yerel makinenize klonlayın ve browser uzantılar alanında chrome eklen
 ```bash
 > git clone https://github.com/gkhntyln/m3u8_Player.git
 
-> python m3u8_player.py  veta  click "start.bat"
+> python m3u8_player.py  or  click "start.bat"
