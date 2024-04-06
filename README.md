@@ -22,6 +22,6 @@ Uygulama, M3U8 medya oynatma listelerini yönetmek için kolay bir arayüz sunar
 Projeyi yerel makinenize klonlayın ve browser uzantılar alanında chrome eklentisinide kurun. 
 
 ```bash
-> git clone https://github.com/gkhntyln/m3u8_Player.git
+> git clone https://github.com/gkhantyln/m3u8_Player.git
 
 > python m3u8_player.py  or  click "start.bat"
