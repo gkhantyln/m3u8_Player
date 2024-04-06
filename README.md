@@ -1,6 +1,6 @@
 # M3U8 Player + M3U8 Chrome Extension
 
-![M3U8 Player Screen](screen.png)
+![M3U8 Player Screen](/img/screen.png)
 
 M3U8 uzantılı medya oynatma listelerini kolayca yönetmenize ve içeriklerini oynatmanıza olanak tanıyan bir Python uygulamasıdır. Bu uygulama sayesinde M3U8 oynatma listelerini ekleyebilir, arayabilir, düzenleyebilir ve oynatabilirsiniz.
 
